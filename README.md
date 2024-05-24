@@ -1,18 +1,15 @@
-## Getting Started
+## Propósito do sistema
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O intuito deste pequeno sistema é contar a quantidades de valores presentes em um intervalo fornecido pelo usuário.
 
-## Folder Structure
+## Como funciona?
 
-The workspace contains two folders by default, where:
+É exigido que o usuário passe dois valores via teclado, de modo que o primeiro seja menor que o segundo.
+Caso não siga a recomendação, uma exceção será lançada.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Por fim, se corretamente inicializado, será impresso na tela quantos valores estão presentes neste intervalo, um a um, a partir
+do laço for.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
